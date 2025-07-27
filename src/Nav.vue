@@ -4,6 +4,7 @@ import {useRouter} from "vue-router";
 
 const isScroll = ref(false);
 const router = useRouter();
+const version = __APP_VERSION__
 
 const handleScroll = () =>
 {
@@ -30,6 +31,7 @@ onUnmounted(() =>
       <img class="h-[64px] object-contain select-none"
            src="/lexicardio.webp" alt="">
       <h1 class="w-auto wrap-normal text-light-white text-2xl font-poppins">Lexicardio</h1>
+      <p class="text-primary-dark text-sm font-poppins">v{{version}}</p>
     </div>
 
     <a class="bg-primary hover:bg-primary-dark transition p-10 px-15 text-sm rounded-full text-light-white font-poppins"
