@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url("fonts/JetBrainsMonoNL-SemiBold.woff2") format("truetype");
+}
+
+@font-face {
+    font-family: 'Poppins-Regular';
+    font-weight: normal;
+    src: url("fonts/poppins_regular.woff2") format("truetype");
+}
+
+@font-face {
+    font-family: 'Poppins-SemiBold';
+    font-weight: bold;
+    src: url("fonts/poppins_semibold.woff2") format("truetype");
+}
+
+@font-face {
+    font-family: 'Impact';
+    font-weight: normal;
+    src: url("fonts/impact.woff2") format("truetype");
+}

@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme {
+  --font-impact: "Impact", "JetBrains Mono", sans-serif;
+  --font-jetbrains: "JetBrains Mono", sans-serif;
+  --font-poppins: 'Poppins-SemiBold', 'Poppins-Regular', sans-serif;
+  --font-poppins-normal: 'Poppins-Regular', sans-serif;
+  --color-background: #14161d;
+  --color-background-dark: #211F26;
+  --color-container: #2C2E3A;
+  --color-light-white: #e6e6e6;
+  --color-primary: #8080ff;
+  --color-primary-dark: #4c4c7d;
+  --color-secondary: #00be86;
+  --color-outline: #2b2e3a;
+  --color-blue-link: #81b3ff;
+
+  --spacing: 1px;
+
+  --breakpoint-xs: 30rem;
+
+  --animate-fade-in: fade-in 0.3s ease-in;
+  --animate-fade-out: fade-out 0.3s ease-out;
+  --animate-scrolling-right: scrolling-right 90s linear infinite;
+  --animate-scrolling-left: scrolling-left 60s linear infinite;
+
+  @keyframes fade-in {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+
+  @keyframes fade-out {
+    from {opacity: 1;}
+    to {opacity: 0;}
+  }
+
+  @keyframes scrolling-right {
+    from { transform: translateX(-1300px); }
+    to { transform: translateX(0); }
+  }
+
+  @keyframes scrolling-left {
+    from { transform: translateX(-200px); }
+    to { transform: translateX(-1300px); }
+  }
+}
+
+:root {
+  --color-background: #14161d;
+  --color-light-white: #e6e6e6;
+  --color-primary: #8080ff;
+  --color-primary-dark: #4c4c7d;
+  --color-secondary: #00be86;
+  --color-outline: #2b2e3a;
+  --color-blue-link: #81b3ff;
+}

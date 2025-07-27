@@ -1,0 +1,60 @@
+# --- 產出物 / 快取 ---
+dist/
+build/
+.tmp/
+.temp/
+.cache/
+coverage/
+*.tsbuildinfo
+.eslintcache
+.stylelintcache
+
+# Vite / 工具
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+pnpm-debug.log.*
+lerna-debug.log*
+
+# --- 環境變數 ---
+.env
+.env.*.local
+.env.local
+# 保留範例檔
+!.env.example
+
+# --- 編輯器 / IDE ---
+# JetBrains (WebStorm / IntelliJ)
+.idea/
+# VS Code
+.vscode/
+.history/
+
+# --- OS 產生檔 ---
+.DS_Store
+**/.DS_Store
+Thumbs.db
+
+# --- 測試 / E2E（依需要保留或刪除） ---
+# Vitest / Jest
+jest-coverage/
+# Cypress
+cypress/videos/
+cypress/screenshots/
+cypress/downloads/
+# Playwright
+playwright-report/
+test-results/
+
+# --- 部署平台（本機設定） ---
+.vercel/
+.netlify/
+.firebase/
+.svelte-kit/
+
+# --- 其他暫存 ---
+*.swp
+*.swo
+*.log
