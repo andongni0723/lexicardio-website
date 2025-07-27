@@ -1,0 +1,7 @@
+{
+  "name": "lexicardio",
+  "compatibility_date": "2025-07-27",
+  "assets": {
+    "directory": "./dist"
+  }
+}
