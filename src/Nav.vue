@@ -23,12 +23,12 @@ onUnmounted(() =>
 </script>
 
 <template>
-<div class="fixed m-0 top-0 w-screen bg-transparent transition-colors duration-500 flex flex-col justify-between z-[900]"
+<div class="fixed m-0 top-0  w-screen bg-transparent transition-colors duration-500 flex flex-col justify-between z-[900]"
      :class="{'!bg-background': isScroll}">
-  <div class="py-5 px-[8%] flex justify-between items-center">
+  <div class="py-20 px-[8%] flex justify-between items-center">
     <!-- Logo -->
     <div class="flex items-center gap-20">
-      <img class="h-[64px] object-contain select-none"
+      <img class="sm:h-[64px] h-[32px] object-contain select-none"
            src="/lexicardio.webp" alt="">
       <h1 class="w-auto wrap-normal text-light-white text-2xl font-poppins">Lexicardio</h1>
       <p class="text-primary-dark text-sm font-poppins">v{{version}}</p>

@@ -14,7 +14,7 @@ const sep = computed(() => props.seq ?? '+')
   <div class="flex flex-col items-start gap-30" :class="{ 'flex-wrap': wrap }">
     <template v-for="(tag, i) in items" :key="`${tag}`" >
       <!-- Chip -->
-      <div class="group bg-container hover:bg-primary p-10 rounded-2xl flex items-center gap-20 hover:scale-[1.1] transition">
+      <div class="group bg-container hover:bg-primary active:bg-primary p-10 rounded-2xl flex items-center gap-20 hover:scale-[1.1] active:scale-[1.1] transition">
         <p class="text-primary group-hover:text-primary-dark text-7xl select-none font-poppins">#</p>
         <p class="text-light-white text-6xl select-none font-poppins">{{ tag }}</p>
       </div>
